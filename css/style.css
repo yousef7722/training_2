@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  position: relative;
+}
+.sp-br{
+  border: 2px solid #927345;
+}
+section{
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+body::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  left: 0;
+  top: 0;
+}
+#bg-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(.4);
+}
+.container {
+  position: relative;
+  z-index: 2;
+}
+header {
+  background-color: #111;
+  padding: 30px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  border-bottom: 2px solid rgba(51, 51, 51, 0.25);
+}
+.logo {
+  width: 100px;
+}
+ul {
+  display: flex;
+  padding: 0 10px;
+  flex: 1;
+  max-width: 600px;
+  justify-content: space-between;
+  list-style: none;
+}
+i {
+  color: #937341;
+  font-size: 1.4rem;
+}
+.i-cn {
+  padding: 0 15px;
+}
+.entro {
+  
+  /* border: 2px solid #32281f; */
+}
+.entro .cnt-img{
+  position: relative;
+  width: 75%;
+  margin: auto;
+}
+.entro img{
+  width: 100%;
+}
+.entro .cnt-img img{
+  box-shadow: 10px 0 65px 10px black;
+  position: relative;
+  z-index: 2;
+}
+.small{
+  position: absolute;
+  height: 80%;
+  right: 0;
+  bottom: 0;
+  translate: 100%;
+}
+.small::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.699);
+  top: 0;
+  left: 0;
+}
+.left{
+  left: 0;
+  right: auto;
+  translate: -100%;
+}
+.right img{
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
+.small img{
+  object-fit: cover;
+  height: 100%;
+  filter: grayscale(.5);
+}
+/* sec */
+/* sec */
+/* sec */
+.sec{
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+.title-con{
+  border-bottom: 2px solid rgba(51, 51, 51, 0.25);
+  border-top: 2px solid rgba(51, 51, 51, 0.25);
+  background-color: #111;
+}
+.sec-title{
+  padding-top: 45px;
+  font-size: 1.8rem;
+  color: white;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  padding: 25px;
+}
+.sec-title p{
+  margin-bottom: 10px;
+}
+.title-line{
+  position: relative;
+  width: calc(215px/2);
+  height: 2px;
+  display: block;
+  margin: auto;
+  background-color: #927345;
+  transition: .4s;
+}
+
+.sec-title:hover span{
+  width: calc(215px/1.4);
+}
+.sec-1 .sec-con .row-1{
+  display: flex;
+  gap: 10px;
+}
+.sec-1 .sec-con .row-1 figure{
+  width: 25%;
+  text-align: left;
+}
+.row-2{
+  display: flex;
+}
+.row-2 >div{
+  flex: 1;
+}
+.row-2 .text{
+  flex: 2;
+}
+.text .box{
+  
+}
+/* #937341 gold */
+/* #c4b998 semi white font icon */
+/* #0f0f0f card bg semi black */
+/*     border-bottom: 2px solid #0f0f0f;
+    border-top: 2px solid #0f0f0f; */
